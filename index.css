@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1EA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96B6C5;
+    padding: 5px;
+    width: 100%;
+
+}
+
+header .logo {
+    padding: 3% 10%;
+}
+
+header .icons {
+    display: flex;
+    margin: 50px;
+    gap: 60px;
+}
+
+a{
+    color: #003870;
+}
+
+header .nav {
+    width: 24px;
+    height: 24px;
+}
+
+.nav {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+li a:hover{
+    background-color: #E8E8E1;
+    color: #003870;
+    text-decoration: none;
+    display: block;
+}
+
+li a:link{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.option1 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.option1 li{
+    background-color: #FAFCEF;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    font-size: 14px;
+    padding: 8px 8px;
+    width: 75px;
+    height: auto;
+}
+
+.option1{
+    position: as;
+    z-index: 1;
+}
+
+.option2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.option2 li{
+    background-color: #FAFCEF;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    font-size: 14px;
+    padding: 8px 8px;
+    width: 75px;
+    height: auto;
+}
+
+.option2{
+
+    position: absolute;
+    z-index: 1;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.slider {
+    background-color: #cccccc;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hot-products {
+    background-color: #F1F1EA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hot-products h2 {
+    font-size: 20px;
+    color: #003870;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.product {
+    background-color: #cccccc;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_all{
+    background-color: #cccccc;
+    width: calc(33.333% - 20px);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #96B6C5;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links {
+    margin-bottom: 20px;
+}
+
+footer .footer-links a {
+    color: #003870;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    color: #003870;
+    font-size: 14px;
+}
